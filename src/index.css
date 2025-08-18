@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+   font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, input, textarea, button, select {
+  font-family: 'Montserrat', sans-serif;
+}
+
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8787; 
+}
