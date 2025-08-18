@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Rwandan-Frames/static/css/main.5058bbc8.css",
+    "main.js": "/Rwandan-Frames/static/js/main.b6040c27.js",
+    "static/media/logo.png": "/Rwandan-Frames/static/media/logo.16d192b60c99b2e28662.png",
+    "index.html": "/Rwandan-Frames/index.html",
+    "main.5058bbc8.css.map": "/Rwandan-Frames/static/css/main.5058bbc8.css.map",
+    "main.b6040c27.js.map": "/Rwandan-Frames/static/js/main.b6040c27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5058bbc8.css",
+    "static/js/main.b6040c27.js"
+  ]
+}
