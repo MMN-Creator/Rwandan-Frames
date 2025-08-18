@@ -5,7 +5,7 @@ import BlogDetail from './pages/BlogDetail';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog/:slug" element={<BlogDetail />} />
