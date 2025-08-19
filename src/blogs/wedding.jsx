@@ -96,9 +96,9 @@ const WeddingSeason = () => {
         The internet didn’t even see this coming. On Josine’s first podcast on Moments with Jo, she had joked saying that she wasn’t even dating anyone.
       </p>
       <div style={imgGrid}>
-      <img src={process.env.PUBLIC_URL + "/images/Picture47.png"} alt="Podcast moment" style={imgStyleGrid} />
-<img src={process.env.PUBLIC_URL + "/images/Picture48.png"} alt="Soft glow-up moment" style={imgStyleGrid} />
-<img src={process.env.PUBLIC_URL + "/images/Picture49.png"} alt="Engagement mystery" style={imgStyleGrid} />
+      <img src={process.env.PUBLIC_URL + "/images/negri1.png"} alt="Podcast moment" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/negri2.png"} alt="Soft glow-up moment" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/negri3.png"} alt="Engagement mystery" style={imgStyleGrid} />
 
       </div>
 
