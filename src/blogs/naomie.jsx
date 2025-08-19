@@ -48,7 +48,7 @@ const NaomiesHusband = () => {
             Edits, remixes, and dramatic captions followed. It was viral gold — but Naomie still came out shining.
           </p>
         </div>
-        <img src={process.env.PUBLIC_URL + "/images/picture60.png"} alt="Social media reactions" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/Picture60.png"} alt="Social media reactions" style={responsiveImg} />
 
       </div>
 
@@ -67,7 +67,7 @@ const NaomiesHusband = () => {
             “Let it be a moto that makes him fall and rise again, or a boat, or even an aircraft!” she said, laughing.
           </p>
         </div>
-        <img src={process.env.PUBLIC_URL + "/images/picture46.png"} alt="Funny edits from Instagram Live" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/Picture46.png"} alt="Funny edits from Instagram Live" style={responsiveImg} />
 
       </div>
 
