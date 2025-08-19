@@ -110,10 +110,10 @@ const SafeAndSound = () => {
           </a>
         </div>
         <div className="imageGrid">
-          <img src="/images/ne6.png" alt="Nyandungu Urban Wetland" />
-<img src="/images/ne2.png" alt="Nyandungu Urban Wetland" />
-<img src="/images/ne5.png" alt="Nyandungu Urban Wetland" />
-<img src="/images/ne1.png" alt="Nyandungu Urban Wetland" />
+          <img src={process.env.PUBLIC_URL + "/images/ne6.png"} alt="Nyandungu Urban Wetland" />
+<img src={process.env.PUBLIC_URL + "/images/ne2.png"} alt="Nyandungu Urban Wetland" />
+<img src={process.env.PUBLIC_URL + "/images/ne5.png"} alt="Nyandungu Urban Wetland" />
+<img src={process.env.PUBLIC_URL + "/images/ne1.png"} alt="Nyandungu Urban Wetland" />
 
           <a href="https://www.nyandunguecopark.rw/" target="_blank" rel="noopener noreferrer" className="linkMobile">
             🌿 Explore Nyandungu Eco-park
@@ -133,10 +133,10 @@ const SafeAndSound = () => {
           </p>
         </div>
         <div className="imageGrid">
-         <img src="/images/p1.png" alt="The Green Carpet Kigali" />
-<img src="/images/p2.png" alt="The Green Carpet Kigali" />
-<img src="/images/p3.png" alt="The Green Carpet Kigali" />
-<img src="/images/p4.png" alt="The Green Carpet Kigali" />
+         <img src={process.env.PUBLIC_URL + "/images/p1.png"} alt="The Green Carpet Kigali" />
+<img src={process.env.PUBLIC_URL + "/images/p2.png"} alt="The Green Carpet Kigali" />
+<img src={process.env.PUBLIC_URL + "/images/p3.png"} alt="The Green Carpet Kigali" />
+<img src={process.env.PUBLIC_URL + "/images/p4.png"} alt="The Green Carpet Kigali" />
 
         </div>
       </div>
@@ -156,10 +156,10 @@ const SafeAndSound = () => {
           </a>
         </div>
         <div className="imageGrid">
-          <img src="/images/ak1.png" alt="Akagera National Park" />
-<img src="/images/ak2.png" alt="Akagera National Park" />
-<img src="/images/ak3.png" alt="Akagera National Park" />
-<img src="/images/ak4.png" alt="Akagera National Park" />
+         <img src={process.env.PUBLIC_URL + "/images/ak1.png"} alt="Akagera National Park" />
+<img src={process.env.PUBLIC_URL + "/images/ak2.png"} alt="Akagera National Park" />
+<img src={process.env.PUBLIC_URL + "/images/ak3.png"} alt="Akagera National Park" />
+<img src={process.env.PUBLIC_URL + "/images/ak4.png"} alt="Akagera National Park" />
 
           <a href="https://visitakagera.org/" target="_blank" rel="noopener noreferrer" className="linkMobile">
             🦓 Visit Akagera National Park
@@ -189,10 +189,10 @@ const SafeAndSound = () => {
           </a>
         </div>
         <div className="imageGrid">
-         <img src="/images/ny1.png" alt="Nyungwe Forest National Park" />
-<img src="/images/ny2.png" alt="Nyungwe Forest National Park" />
-<img src="/images/ny3.png" alt="Nyungwe Forest National Park" />
-<img src="/images/ny4.png" alt="Nyungwe Forest National Park" />
+         <img src={process.env.PUBLIC_URL + "/images/ny1.png"} alt="Nyungwe Forest National Park" />
+<img src={process.env.PUBLIC_URL + "/images/ny2.png"} alt="Nyungwe Forest National Park" />
+<img src={process.env.PUBLIC_URL + "/images/ny3.png"} alt="Nyungwe Forest National Park" />
+<img src={process.env.PUBLIC_URL + "/images/ny4.png"} alt="Nyungwe Forest National Park" />
 
           <a href="https://www.nyungweforestnationalpark.org/" target="_blank" rel="noopener noreferrer" className="linkMobile">
             🌲 Discover Nyungwe Forest

@@ -33,7 +33,12 @@ const UmugandaGOA = () => {
 
       {/* Section 1 — Image Left */}
       <div className="rowBlock" style={rowBlock}>
-        <img src="/images/um1.png" alt="Masai Ujiri addressing youth at Umuganda" className="imgStyle" style={imgStyle} />
+<img
+  src={process.env.PUBLIC_URL + "/images/um1.png"}
+  alt="Masai Ujiri addressing youth at Umuganda"
+  className="imgStyle"
+  style={imgStyle}
+/>
 
         <div className="textStyle" style={textStyle}>
           <p>
@@ -48,7 +53,12 @@ const UmugandaGOA = () => {
 
       {/* Section 2 — Image Right */}
       <div className="rowBlockAlt" style={rowBlockAlt}>
-        <img src="/images/um2.png" alt="Community members and GOA participants during Umuganda" className="imgStyle" style={imgStyle} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/um2.png"}
+  alt="Community members and GOA participants during Umuganda"
+  className="imgStyle"
+  style={imgStyle}
+/>
 
         <div className="textStyle" style={textStyle}>
           <p>
@@ -63,7 +73,12 @@ const UmugandaGOA = () => {
 
       {/* Section 3 — Image Left */}
       <div className="rowBlock" style={rowBlock}>
-        <img src="/images/um3.png" alt="Minister of Sports Nelly Mukazayire speaking at Umuganda" className="imgStyle" style={imgStyle} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/um3.png"}
+  alt="Minister of Sports Nelly Mukazayire speaking at Umuganda"
+  className="imgStyle"
+  style={imgStyle}
+/>
 
         <div className="textStyle" style={textStyle}>
           <p>
@@ -81,7 +96,12 @@ const UmugandaGOA = () => {
 
       {/* Section 4 — Image Right */}
       <div className="rowBlockAlt" style={rowBlockAlt}>
-        <img src="/images/um4.png" alt="Youth participating in Umuganda community work" className="imgStyle" style={imgStyle} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/um4.png"}
+  alt="Youth participating in Umuganda community work"
+  className="imgStyle"
+  style={imgStyle}
+/>
 
         <div className="textStyle" style={textStyle}>
           <p>

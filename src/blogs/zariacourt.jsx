@@ -50,7 +50,7 @@ const ZariaCourt = () => {
 
       {/* Section 1 — Image Left */}
       <div style={sideBySideStyle(true)}>
-       <img src="/images/z1.png" alt="Zaria Court facade" style={responsiveImage} />
+       <img src={process.env.PUBLIC_URL + "/images/z1.png"} alt="Zaria Court facade" style={responsiveImage} />
 
         <div style={leftColumn}>
           <p>
@@ -71,13 +71,13 @@ const ZariaCourt = () => {
             On <strong>July 28, 2025</strong>, <strong>President Paul Kagame</strong> and <strong>Masai Ujiri</strong> officially opened Zaria Court in Remera. Ujiri described it as “a place where African excellence takes center stage.” President Kagame praised the project for empowering youth, promoting creativity, and building community.
           </p>
         </div>
-       <img src="/images/g22.png" alt="Opening ceremony crowd" style={responsiveImage} />
+       <img src={process.env.PUBLIC_URL + "/images/g22.png"} alt="Opening ceremony crowd" style={responsiveImage} />
 
       </div>
 
       {/* Section 3 — Image Left */}
       <div style={sideBySideStyle(true)}>
-       <img src="/images/z3.png" alt="Public court & community" style={responsiveImage} />
+       <img src={process.env.PUBLIC_URL + "/images/z3.png"} alt="Public court & community" style={responsiveImage} />
 
         <div style={leftColumn}>
           <p>
@@ -98,7 +98,7 @@ const ZariaCourt = () => {
             Zaria Court was also featured in the <strong>Giants of Africa Festival 2025</strong> — serving not just as a venue but a vision of what’s possible when sports, design, and purpose align. Ujiri plans to replicate the Zaria model in other African countries by 2030.
           </p>
         </div>
-        <img src="/images/z4.png" alt="Container retail and lounge" style={responsiveImage} />
+        <img src={process.env.PUBLIC_URL + "/images/z4.png"} alt="Container retail and lounge" style={responsiveImage} />
 
       </div>
 

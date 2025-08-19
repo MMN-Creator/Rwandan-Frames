@@ -30,9 +30,30 @@ const GiantsOfAfrica = () => {
         The festival kicked off with an unforgettable concert featuring Sherie Silver, Kevin Kade, and DJ Uncle Waffles. The energy was electric — a true celebration of African culture, music, and unity.
       </p>
       <div style={imgGrid}>
-        <img src="/images/sherrie.png" alt="Sherie Silver dancing" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
-        <img src="/images/kevin.png" alt="Uncle Waffles spinning" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
-        <img src="/images/picture911.png" alt="Opening concert wide shot" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+      <img
+  src={process.env.PUBLIC_URL + "/images/sherrie.png"}
+  alt="Sherie Silver dancing"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
+<img
+  src={process.env.PUBLIC_URL + "/images/kevin.png"}
+  alt="Uncle Waffles spinning"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
+<img
+  src={process.env.PUBLIC_URL + "/images/picture911.png"}
+  alt="Opening concert wide shot"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
       </div>
 
       {/* Fashion Section */}
@@ -41,9 +62,30 @@ const GiantsOfAfrica = () => {
         The festival’s fashion spotlight featured the “Threads of Africa” show with talented Rwandan designers. This fusion of culture, sport, and style celebrated Africa’s creativity beyond the basketball court.
       </p>
       <div style={imgGrid}>
-        <img src="/images/g25.png" alt="Runway fashion 1" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
-        <img src="/images/picture92.png" alt="Runway fashion 2" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
-        <img src="/images/g26.png" alt="Threads of Africa stage" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/g25.png"}
+  alt="Runway fashion 1"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
+<img
+  src={process.env.PUBLIC_URL + "/images/picture92.png"}
+  alt="Runway fashion 2"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
+<img
+  src={process.env.PUBLIC_URL + "/images/g26.png"}
+  alt="Threads of Africa stage"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
       </div>
 
       {/* Closing Concert Section */}
@@ -52,9 +94,30 @@ const GiantsOfAfrica = () => {
         The closing concert featured The Ben, Kizz Daniel, Timaya, Ayra Starr, and DJ Senshi. Fans danced all night while the stage delivered unforgettable performances.
       </p>
       <div style={imgGrid}>
-        <img src="/images/g17.png" alt="Ayra Starr performance" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
-        <img src="/images/g16.png" alt="DJ Senshi energy" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
-        <img src="/images/ayra.png" alt="Closing concert wide view" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/g17.png"}
+  alt="Ayra Starr performance"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
+<img
+  src={process.env.PUBLIC_URL + "/images/g16.png"}
+  alt="DJ Senshi energy"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
+<img
+  src={process.env.PUBLIC_URL + "/images/ayra.png"}
+  alt="Closing concert wide view"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
       </div>
 
       {/* Kagame & Masai Section */}
@@ -63,9 +126,30 @@ const GiantsOfAfrica = () => {
         The presence of President Paul Kagame alongside Masai Ujiri highlighted how Giants of Africa goes beyond sports — it’s a movement focused on nation-building, youth empowerment, and inspiring hope across the continent.
       </p>
       <div style={imgGrid}>
-        <img src="/images/g13.png" alt="President Kagame watching" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
-        <img src="/images/g12.png" alt="Masai Ujiri in crowd" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
-        <img src="/images/picture105.png" alt="Kagame & Masai Ujiri together" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/g13.png"}
+  alt="President Kagame watching"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
+<img
+  src={process.env.PUBLIC_URL + "/images/g12.png"}
+  alt="Masai Ujiri in crowd"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
+<img
+  src={process.env.PUBLIC_URL + "/images/picture105.png"}
+  alt="Kagame & Masai Ujiri together"
+  style={imgStyleGrid}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
       </div>
 
       {/* Final Frame */}

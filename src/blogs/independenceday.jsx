@@ -45,7 +45,14 @@ const IndependenceLiberation = () => {
 
       {/* Section 1 — Image Left */}
       <div style={responsiveRow()}>
-        <img src="/images/i2.png" alt="Rwanda's Independence Day 1962" style={responsiveImg} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+       <img
+  src={process.env.PUBLIC_URL + "/images/i2.png"}
+  alt="Rwanda's Independence Day 1962"
+  style={responsiveImg}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
         <div style={responsiveText}>
           <p>
             🎉 <strong>July 1st — Independence Day</strong><br />
@@ -59,7 +66,14 @@ const IndependenceLiberation = () => {
 
       {/* Section 2 — Image Right */}
       <div style={responsiveRow(true)}>
-        <img src="/images/i3.png" alt="Liberation Day 1994" style={responsiveImg} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/i3.png"}
+  alt="Liberation Day 1994"
+  style={responsiveImg}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
         <div style={responsiveText}>
           <p>
             🕊️ <strong>July 4th — Liberation Day</strong><br />
@@ -73,7 +87,14 @@ const IndependenceLiberation = () => {
 
       {/* Section 3 — Image Left */}
       <div style={responsiveRow()}>
-        <img src="/images/i5.png" alt="President Kagame speech" style={responsiveImg} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/i5.png"}
+  alt="President Kagame speech"
+  style={responsiveImg}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
         <div style={responsiveText}>
           <p>
             🎙️ <strong>Words that Still Echo</strong><br />
@@ -87,7 +108,14 @@ const IndependenceLiberation = () => {
 
       {/* Section 4 — Image Right */}
       <div style={responsiveRow(true)}>
-        <img src="/images/i4.png" alt="Rwandan youth today" style={responsiveImg} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/i4.png"}
+  alt="Rwandan youth today"
+  style={responsiveImg}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
         <div style={responsiveText}>
           <p>
             👥 <strong>The Youth Today</strong><br />

@@ -17,7 +17,7 @@ const CelebFashion = () => {
 
       {/* Row: Left picture, paragraph, right picture */}
       <div style={rowWrapper}>
-        <img src="/images/picture54.png" alt="Celebrity red carpet" style={sideImageStyle} />
+        <img src={process.env.PUBLIC_URL + "/images/picture54.png"} alt="Celebrity red carpet" style={sideImageStyle} />
         
         <div style={middleParagraphStyle}>
           <p>
@@ -30,7 +30,7 @@ const CelebFashion = () => {
           </p>
         </div>
         
-        <img src="/images/picture55.png" alt="Sunday service attire" style={sideImageStyle} />
+        <img src={process.env.PUBLIC_URL + "/images/picture55.png"} alt="Sunday service attire" style={sideImageStyle} />
       </div>
 
       {/* Sabine Mutabazi */}
@@ -40,9 +40,9 @@ const CelebFashion = () => {
       </p>
 
       <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-        <img src="/images/sabine1.png" alt="Sabine in red & white" style={imgStyleUniform} />
-        <img src="/images/sabine2.png"alt="Sabine full-body outfit" style={imgStyleUniform} />
-        <img src="/images/sabine3.png" alt="Sabine full-body outfit" style={imgStyleUniform} />
+        <img src={process.env.PUBLIC_URL + "/images/sabine1.png"} alt="Sabine in red & white" style={imgStyleUniform} />
+<img src={process.env.PUBLIC_URL + "/images/sabine2.png"} alt="Sabine full-body outfit" style={imgStyleUniform} />
+<img src={process.env.PUBLIC_URL + "/images/sabine3.png"} alt="Sabine full-body outfit" style={imgStyleUniform} />
       </div>
 
       <p>The look? Chic. Powerful. Effortlessly patriotic with glam to spare.</p>
@@ -54,9 +54,9 @@ const CelebFashion = () => {
       </p>
 
       <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-        <img src="/images/tracy1.png" alt="Tracy Mukunzi stunning outfit" style={imgStyleUniform} />
-        <img src="/images/tracy2.png" alt="Tracy's glam moment" style={imgStyleUniform} />
-        <img src="/images/tracy3.png" alt="Tracy's glam moment" style={imgStyleUniform} />
+        <img src={process.env.PUBLIC_URL + "/images/tracy1.png"} alt="Tracy Mukunzi stunning outfit" style={imgStyleUniform} />
+<img src={process.env.PUBLIC_URL + "/images/tracy2.png"} alt="Tracy's glam moment" style={imgStyleUniform} />
+<img src={process.env.PUBLIC_URL + "/images/tracy3.png"} alt="Tracy's glam moment" style={imgStyleUniform} />
       </div>
 
       <p>Her fashion choices feel like poetry in motion — and we’re here for every verse.</p>
@@ -68,9 +68,9 @@ const CelebFashion = () => {
       </p>
 
       <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-        <img src="/images/ele1.png" alt="Element on stage" style={imgStyleUniform} />
-        <img src="/images/ele2.png" alt="Element’s fashion moment" style={imgStyleUniform} />
-        <img src="/images/ele3.png" alt="Element’s fashion moment" style={imgStyleUniform} />
+        <img src={process.env.PUBLIC_URL + "/images/ele1.png"} alt="Element on stage" style={imgStyleUniform} />
+<img src={process.env.PUBLIC_URL + "/images/ele2.png"} alt="Element’s fashion moment" style={imgStyleUniform} />
+<img src={process.env.PUBLIC_URL + "/images/ele3.png"} alt="Element’s fashion moment" style={imgStyleUniform} />
       </div>
 
       <p>Sleek fit, cool tones, and charisma for days. Music and fashion clearly go hand in hand with this one.</p>
@@ -82,9 +82,9 @@ const CelebFashion = () => {
       </p>
 
       <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-        <img src="/images/jolly1.png" alt="Jolly Mutesi bold look" style={imgStyleUniform} />
-        <img src="/images/jolly2.png" alt="Fashion queen moment" style={imgStyleUniform} />
-        <img src="/images/jolly3.png" alt="Jolly being iconic" style={imgStyleUniform} />
+        <img src={process.env.PUBLIC_URL + "/images/jolly1.png"} alt="Jolly Mutesi bold look" style={imgStyleUniform} />
+<img src={process.env.PUBLIC_URL + "/images/jolly2.png"} alt="Fashion queen moment" style={imgStyleUniform} />
+<img src={process.env.PUBLIC_URL + "/images/jolly3.png"} alt="Jolly being iconic" style={imgStyleUniform} />
       </div>
 
       <p>

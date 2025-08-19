@@ -38,7 +38,14 @@ const ChateauLeMarara = () => {
           — Josine the bride&apos;s sister reportedly exclaimed.
         </p>
         </div>
-        <img src="/images/marara5.png" alt="Chateau Le Marara wedding setup" style={responsiveImg} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/marara5.png"}
+  alt="Chateau Le Marara wedding setup"
+  style={responsiveImg}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
 
       </div>
 
@@ -52,7 +59,14 @@ const ChateauLeMarara = () => {
             complaints, and tales of spoiled milk, blackout dinners, and fruit that clearly didn’t pass the vibe check.
           </p>
         </div>
-        <img src="/images/bonette5.png" alt="Chaotic wedding moment" style={responsiveImg} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+       <img
+  src={process.env.PUBLIC_URL + "/images/bonette5.png"}
+  alt="Chaotic wedding moment"
+  style={responsiveImg}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
 
       </div>
 
@@ -79,7 +93,14 @@ const ChateauLeMarara = () => {
             Spoiled milk? Apparently.
           </p>
         </div>
-        <img src="/images/rwa21.jfif" alt="Viral tweet or comment" style={responsiveImg} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/rwa21.jfif"}
+  alt="Viral tweet or comment"
+  style={responsiveImg}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
 
       </div>
 

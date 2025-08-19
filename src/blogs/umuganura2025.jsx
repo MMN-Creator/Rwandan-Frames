@@ -29,7 +29,12 @@ const Umuganura2025 = () => {
 
       {/* Section 1 — Image Left */}
       <div className="rowBlock" style={rowBlock}>
-       <img src="/images/u1.png" alt="Traditional harvest rituals" className="imgStyle" style={imgStyle} />
+       <img
+  src={process.env.PUBLIC_URL + "/images/u1.png"}
+  alt="Traditional harvest rituals"
+  className="imgStyle"
+  style={imgStyle}
+/>
 
         <div className="textStyle" style={textStyle}>
           <p>
@@ -45,7 +50,11 @@ const Umuganura2025 = () => {
       {/* Section 2 — Image Right */}
       <div className="rowBlockAlt" style={rowBlockAlt}>
         <div>
-          <img src="/images/u2.png" alt="Diaspora gathering in Morocco" className="imgStyle" />
+          <img
+  src={process.env.PUBLIC_URL + "/images/u2.png"}
+  alt="Diaspora gathering in Morocco"
+  className="imgStyle"
+/>
 
           <p style={{ textAlign: 'center', marginTop: '0.3rem', fontStyle: 'italic' }}>
             (Ambassador Shakilla Umutoni)
@@ -64,7 +73,12 @@ const Umuganura2025 = () => {
 
       {/* Section 3 — Image Left */}
       <div className="rowBlock" style={rowBlock}>
-        <img src="/images/u3.png" alt="Children receiving milk" className="imgStyle" style={imgStyle} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/u3.png"}
+  alt="Children receiving milk"
+  className="imgStyle"
+  style={imgStyle}
+/>
 
         <div className="textStyle" style={textStyle}>
           <p>
@@ -79,7 +93,12 @@ const Umuganura2025 = () => {
 
       {/* Section 4 — Image Right */}
       <div className="rowBlockAlt" style={rowBlockAlt}>
-        <img src="/images/u4.png" alt="Ambassador speeches in Lusaka" className="imgStyle" style={imgStyle} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/u4.png"}
+  alt="Ambassador speeches in Lusaka"
+  className="imgStyle"
+  style={imgStyle}
+/>
 
         <div className="textStyle" style={textStyle}>
           <p>

@@ -45,7 +45,7 @@ const KwitaIzina2025 = () => {
 
       {/* Section 1 — Image Left */}
       <div style={responsiveRow()}>
-        <img src="/images/kw1.png" alt="Kwita Izina ceremony crowd" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/kw1.png"} alt="Kwita Izina ceremony crowd" style={responsiveImg} />
         <div style={responsiveText}>
           <p>
             🌍 <strong>A Legacy of Conservation</strong><br />
@@ -59,7 +59,7 @@ const KwitaIzina2025 = () => {
 
       {/* Section 2 — Image Right */}
       <div style={responsiveRow(true)}>
-        <img src="/images/kw2.png" alt="First Lady Jeannette Kagame at Kwita Izina" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/kw2.png"} alt="First Lady Jeannette Kagame at Kwita Izina" style={responsiveImg} />
         <div style={responsiveText}>
           <p>
             👑 <strong>Message from the First Lady</strong><br />
@@ -73,7 +73,7 @@ const KwitaIzina2025 = () => {
 
       {/* Section 3 — Image Left */}
       <div style={responsiveRow()}>
-        <img src="/images/kw3.png" alt="Namers with baby gorilla names" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/kw3.png"} alt="Namers with baby gorilla names" style={responsiveImg} />
         <div style={responsiveText}>
           <p>
             🌟 <strong>Global Voices, Local Impact</strong><br />
@@ -90,7 +90,7 @@ const KwitaIzina2025 = () => {
 
       {/* Section 4 — Image Right */}
       <div style={responsiveRow(true)}>
-        <img src="/images/kw4.png"alt="Community projects in Rwanda" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/kw4.png"} alt="Community projects in Rwanda" style={responsiveImg} />
         <div style={responsiveText}>
           <p>
             📈 <strong>Empowering Communities</strong><br />
@@ -104,7 +104,7 @@ const KwitaIzina2025 = () => {
 
       {/* Section 5 — Image Left */}
       <div style={responsiveRow()}>
-        <img src="/images/kw5.png" alt="Volcanoes National Park and tourism" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/kw5.png"} alt="Volcanoes National Park and tourism" style={responsiveImg} />
         <div style={responsiveText}>
           <p>
             🌏 <strong>Explore More: What to Expect in Kinigi</strong><br />

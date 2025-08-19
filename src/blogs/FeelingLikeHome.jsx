@@ -102,10 +102,10 @@ const FeelingLikeHome = () => {
           </a>
         </div>
         <div className="imageGrid">
-          <img src="/images/mn1.png" alt="Mukati na Butta" />
-          <img src="/images/mn2.png" alt="Mukati na Butta" />
-          <img src="/images/mn3.png"  alt="Mukati na Butta" />
-          <img src="/images/mn4.png" alt="Mukati na Butta" />
+          <img src={process.env.PUBLIC_URL + "/images/mn1.png"} alt="Mukati na Butta" />
+<img src={process.env.PUBLIC_URL + "/images/mn2.png"} alt="Mukati na Butta" />
+<img src={process.env.PUBLIC_URL + "/images/mn3.png"} alt="Mukati na Butta" />
+<img src={process.env.PUBLIC_URL + "/images/mn4.png"} alt="Mukati na Butta" />
           <a href="https://mukatinabutta.rw/" target="_blank" rel="noopener noreferrer" style={linkStyle} className="linkMobile">
             Discover Mukati na Butta
           </a>
@@ -130,10 +130,10 @@ const FeelingLikeHome = () => {
           </a>
         </div>
         <div className="imageGrid">
-          <img src="/images/kn1.png"  alt="Kivu Noir Cafe" />
-          <img src="/images/kn2.png"  alt="Kivu Noir Cafe" />
-          <img src="/images/kn3.png"  alt="Kivu Noir Cafe" />
-          <img src="/images/kn4.png"  alt="Kivu Noir Cafe" />
+          <img src={process.env.PUBLIC_URL + "/images/kn1.png"} alt="Kivu Noir Cafe" />
+<img src={process.env.PUBLIC_URL + "/images/kn2.png"} alt="Kivu Noir Cafe" />
+<img src={process.env.PUBLIC_URL + "/images/kn3.png"} alt="Kivu Noir Cafe" />
+<img src={process.env.PUBLIC_URL + "/images/kn4.png"} alt="Kivu Noir Cafe" />
           <a href="https://www.kivunoir.rw/" target="_blank" rel="noopener noreferrer" style={linkStyle} className="linkMobile">
             Experience Kivu Noir Café
           </a>
@@ -165,10 +165,10 @@ const FeelingLikeHome = () => {
           </a>
         </div>
         <div className="imageGrid">
-          <img src="/images/vc1.png" alt="Vintage Cottage Resort" />
-          <img src="/images/vc2.png" alt="Vintage Cottage Resort" />
-          <img src="/images/vc3.png" alt="Vintage Cottage Resort" />
-          <img src="/images/vc4.png" alt="Vintage Cottage Resort" />
+          <img src={process.env.PUBLIC_URL + "/images/vc1.png"} alt="Vintage Cottage Resort" />
+<img src={process.env.PUBLIC_URL + "/images/vc2.png"} alt="Vintage Cottage Resort" />
+<img src={process.env.PUBLIC_URL + "/images/vc3.png"} alt="Vintage Cottage Resort" />
+<img src={process.env.PUBLIC_URL + "/images/vc4.png"} alt="Vintage Cottage Resort" />
           <a href="https://vintagecottagerwanda.com/" target="_blank" rel="noopener noreferrer" style={linkStyle} className="linkMobile">
             Visit Vintage Cottage Resort
           </a>
@@ -190,10 +190,10 @@ const FeelingLikeHome = () => {
           </a>
         </div>
         <div className="imageGrid">
-          <img src="/images/fh1.png" alt="Farmhouse Rwanda" />
-          <img src="/images/fh2.png" alt="Farmhouse Rwanda" />
-          <img src="/images/fh3.png" alt="Farmhouse Rwanda" />
-          <img src="/images/fh4.png" alt="Farmhouse Rwanda" />
+          <img src={process.env.PUBLIC_URL + "/images/fh1.png"} alt="Farmhouse Rwanda" />
+<img src={process.env.PUBLIC_URL + "/images/fh2.png"} alt="Farmhouse Rwanda" />
+<img src={process.env.PUBLIC_URL + "/images/fh3.png"} alt="Farmhouse Rwanda" />
+<img src={process.env.PUBLIC_URL + "/images/fh4.png"} alt="Farmhouse Rwanda" />
           <a href="https://farmhouserwanda.com/" target="_blank" rel="noopener noreferrer" style={linkStyle} className="linkMobile">
             Discover Farmhouse Rwanda
           </a>
@@ -212,10 +212,10 @@ const FeelingLikeHome = () => {
           </a>
         </div>
         <div className="imageGrid">
-          <img src="/images/a1.png" alt="Amarembo by Touch Down" />
-          <img src="/images/a2.png" alt="Amarembo by Touch Down" />
-          <img src="/images/a3.png" alt="Amarembo by Touch Down" />
-          <img src="/images/a4.png" alt="Amarembo by Touch Down" />
+          <img src={process.env.PUBLIC_URL + "/images/a1.png"} alt="Amarembo by Touch Down" />
+<img src={process.env.PUBLIC_URL + "/images/a2.png"} alt="Amarembo by Touch Down" />
+<img src={process.env.PUBLIC_URL + "/images/a3.png"} alt="Amarembo by Touch Down" />
+<img src={process.env.PUBLIC_URL + "/images/a4.png"} alt="Amarembo by Touch Down" />
           <a href="https://amarembobytouchdown.com" target="_blank" rel="noopener noreferrer" style={linkStyle} className="linkMobile">
             Visit Amarembo by Touch Down
           </a>

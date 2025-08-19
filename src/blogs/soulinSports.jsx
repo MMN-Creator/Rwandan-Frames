@@ -36,7 +36,7 @@ Kawhi’s visit reminded us that real confidence begins within — it’s not sh
 “I like being the underdog so they don't expect what's going to happen. It pushes me to work harder and do the things I'm not doing better.”
           </p>
         </div>
-       <img src="/images/s5.png" alt="Coach encouraging players at GOA" style={responsiveImage} />
+       <img src={process.env.PUBLIC_URL + "/images/s5.png"} alt="Coach encouraging players at GOA" style={responsiveImage} />
 
       </div>
 
@@ -48,7 +48,7 @@ Kawhi’s visit reminded us that real confidence begins within — it’s not sh
             <strong>APR Basketball Club</strong> stormed into third place with poise and pride in the BAL 2025 season. Their rise is a story of self-belief — and a mirror for a nation that refuses to settle. In a field dominated by bigger names and international rosters, APR showed that grit, discipline, and homegrown unity can still shake the table. Their bronze is Rwanda’s badge of resilience. They’re not just playing the game — they’re raising the bar for what local talent can do on continental stages.
           </p>
         </div>
-       <img src="/images/s6.png" alt="APR Basketball celebrating" style={responsiveImage} />
+       <img src={process.env.PUBLIC_URL + "/images/s6.png"} alt="APR Basketball celebrating" style={responsiveImage} />
 
       </div>
 
@@ -64,7 +64,7 @@ Kawhi’s visit reminded us that real confidence begins within — it’s not sh
           Her journey reminds us that the soul of sports is more than competition; it is inspiration. It is proof that when one Rwandan rises, an entire generation sees new possibilities.
          </p>
         </div>
-        <img src="/images/s2.png" alt="Youth unity at GOA camp" style={responsiveImage} />
+        <img src={process.env.PUBLIC_URL + "/images/s2.png"} alt="Youth unity at GOA camp" style={responsiveImage} />
 
       </div>
 
@@ -80,7 +80,7 @@ Kawhi’s visit reminded us that real confidence begins within — it’s not sh
             “Sports should be an economic priority for every country,” said <strong>Clare Akamanzi</strong>, CEO of NBA Africa. “If you're not putting sports at the center of your economic growth, then you're already playing from behind.”
           </p>
         </div>
-       <img src="/images/s3.png" alt="Kigali skyline near Zaria Court" style={responsiveImage} />
+      <img src={process.env.PUBLIC_URL + "/images/s3.png"} alt="Kigali skyline near Zaria Court" style={responsiveImage} />
 
       </div>
 
@@ -93,7 +93,7 @@ Kawhi’s visit reminded us that real confidence begins within — it’s not sh
             Ujiri’s mission is clear: build ecosystems, not just events. Create jobs, not just highlights. Lift cities, not just teams. As he said: “We can all support each other and even make ourselves bigger.”
           </p>
         </div>
-        <img src="/images/s4.png" alt="Zaria Court event launch" style={responsiveImage} />
+        <img src={process.env.PUBLIC_URL + "/images/s4.png"} alt="Zaria Court event launch" style={responsiveImage} />
 
       </div>
 

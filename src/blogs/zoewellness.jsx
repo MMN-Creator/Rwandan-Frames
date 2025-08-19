@@ -35,7 +35,7 @@ const ZoeWellness = () => {
             It’s where movement becomes medicine, and grace meets grit.
           </p>
         </div>
-       <img src="/images/zo1.png" alt="Studio interior with aerial hammocks" style={responsiveImage} />
+       <img src={process.env.PUBLIC_URL + "/images/zo1.png"} alt="Studio interior with aerial hammocks" style={responsiveImage} />
 
       </div>
 
@@ -50,7 +50,7 @@ const ZoeWellness = () => {
             The vibe? Peaceful yet powerful. A safe space to sweat, stretch, and reconnect.
           </p>
         </div>
-        <img src="/images/zo2.png" alt="Opening class with women group" style={responsiveImage} />
+        <img src={process.env.PUBLIC_URL + "/images/zo2.png"} alt="Opening class with women group" style={responsiveImage} />
 
       </div>
 
@@ -65,7 +65,7 @@ const ZoeWellness = () => {
             Her vision extends beyond physical fitness — Celine aims to create a space where women feel empowered, supported, and connected. Through every class and session, she nurtures not just the body, but the mind and spirit, fostering confidence, balance, and a renewed sense of self.
           </p>
         </div>
-        <img src="/images/zo3.png" alt="Instructor guiding wellness class" style={responsiveImage} />
+        <img src={process.env.PUBLIC_URL + "/images/zo3.png"} alt="Instructor guiding wellness class" style={responsiveImage} />
       </div>
 
       {/* Section 4 — Image Right */}
@@ -79,7 +79,7 @@ const ZoeWellness = () => {
             On social media, their mantra echoes loud: <em>#StrongGracefulWomen</em>.
           </p>
         </div>
-        <img src="/images/zo4.png" alt="Group class showing unity" style={responsiveImage} />
+        <img src={process.env.PUBLIC_URL + "/images/zo4.png"} alt="Group class showing unity" style={responsiveImage} />
 
       </div>
 

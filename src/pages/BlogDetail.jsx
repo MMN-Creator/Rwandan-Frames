@@ -6,7 +6,7 @@ const blogData = {
   'giants-of-africa': {
     title: 'Giants of Africa in Kigali',
     date: 'July 15, 2025',
-    image: "/images/rwa10.jfif",
+    image: process.env.PUBLIC_URL +"/images/rwa10.jfif",
     content: `The Giants of Africa returned to Rwanda with an unforgettable energy...
     
     The event brought youth from across the country, and the energy in the gym was electric. Coaching clinics, inspiring talks, and unforgettable slam dunks filled the atmosphere...`,
@@ -14,7 +14,7 @@ const blogData = {
   'chateau-le-marara': {
     title: 'Funny Moments from Château le Marara',
     date: 'July 20, 2025',
-    image: "/images/marara.jpg",
+    image: process.env.PUBLIC_URL +"/images/marara.jpg",
     content: `From Naomie's husband on the bus, to Gisenyi confessions — Château le Marara served DRAMA and LAUGHTER. 
     
     The audience couldn’t believe the unfolding events...`,

@@ -23,7 +23,11 @@ import PeacefulEscapes from "../blogs/PeacefulEscapes";
 import LitTillLate from "../blogs/LitTilLate";
 import SoulSatisfiers from "../blogs/SoulSatisfiers";
 
-const images = ["/images/rwa4.jfif", "/images/rwa4.jfif", "/images/rwa4.jfif"];
+const images = [
+  process.env.PUBLIC_URL + "/images/rwa4.jfif", 
+  process.env.PUBLIC_URL + "/images/rwa4.jfif", 
+  process.env.PUBLIC_URL + "/images/rwa4.jfif"
+];
 
 const blogPosts = [
   {
@@ -31,7 +35,7 @@ const blogPosts = [
     posts: [
       {
         title: "July 1st — Rwanda’s Independence Reimagined",
-        image: "/images/i1.png",
+        image: process.env.PUBLIC_URL +"/images/i1.png",
         date: "July 1, 2025",
         excerpt:
           "What Independence means to the new generation of Rwandans.  _Rwandans proudly raise your flags",
@@ -41,7 +45,7 @@ const blogPosts = [
       },
       {
         title: "Kwibohora 31 — The Spirit of Liberation",
-        image: "/images/k5.png",
+        image: process.env.PUBLIC_URL +"/images/k5.png",
         date: "July 4, 2025",
         excerpt:
           "“Remember this whole journey, remember your responsibilities, individually and collectively, and do yourselves and your nation proud.”_PK",
@@ -51,7 +55,7 @@ const blogPosts = [
       },
       {
         title: "Umuganura 2025 — A Harvest of Excellence",
-        image: "/images/u0.png",
+        image: process.env.PUBLIC_URL +"/images/u0.png",
         date: "August 2, 2025",
         excerpt:
           "“Isoko y’ubumwe n’ishingiro ryo kwigira.” (A source of unity and foundation for self-reliance)",
@@ -61,7 +65,7 @@ const blogPosts = [
       },
       {
         title: "Kwita Izina — 20 Years of Naming & Protecting",
-        image: "/images/kw6.png",
+        image: process.env.PUBLIC_URL +"/images/kw6.png",
         date: "September 5, 2025",
         excerpt:
           "Honoring gorillas, culture, and conservation — 20 years strong.",
@@ -71,7 +75,7 @@ const blogPosts = [
       },
       {
         title: "Special Umuganda — Culture & Community Work Meet",
-        image: "/images/um6.png",
+        image: process.env.PUBLIC_URL +"/images/um6.png",
         date: "July 26, 2025",
         excerpt: "How tradition meets civic spirit during global events.",
         contentComponent: <SpecialUmuganda />,
@@ -85,7 +89,7 @@ const blogPosts = [
     posts: [
       {
         title: "Giants of Africa in Kigali",
-        image: "/images/g23.png",
+        image: process.env.PUBLIC_URL +"/images/g23.png",
         date: "July 26 – August 2, 2025",
         excerpt:
           "A celebration of energy, talent, and community the event brought to the capital.",
@@ -95,7 +99,7 @@ const blogPosts = [
       },
       {
         title: "BAL’s New Season Unfolds",
-        image: "/images/b1.png",
+        image: process.env.PUBLIC_URL +"/images/b1.png",
         date: "May 17 - May 25, 2025",
         excerpt:
           "Rwanda’s role in the Basketball Africa League’s rise and local talent growth.",
@@ -105,7 +109,7 @@ const blogPosts = [
       },
       {
         title: "Zaria Court: A Space Reimagined",
-        image: "/images/z5.png",
+        image: process.env.PUBLIC_URL +"/images/z5.png",
         date: "June 2025",
         excerpt:
           "From cement to chic — the newly opened court’s cultural vibe spotlighted.",
@@ -115,7 +119,7 @@ const blogPosts = [
       },
       {
         title: "Zoe Wellness Studio on the Rise",
-        image: "/images/zo6.png",
+        image: process.env.PUBLIC_URL +"/images/zo6.png",
         date: "2025",
         excerpt:
           "Inside Kigali’s trendy wellness and fitness wave taking Instagram by storm.",
@@ -125,7 +129,7 @@ const blogPosts = [
       },
       {
         title: "The Soul in Sports: What Movement Teaches Us",
-        image: "/images/s7.png",
+        image: process.env.PUBLIC_URL +"/images/s7.png",
         date: "July 2025",
         excerpt:
           "A reflective dive into what sports reveal about discipline, identity, and spirit.",
@@ -140,7 +144,7 @@ const blogPosts = [
     posts: [
       {
         title: "Château le Marara",
-        image: "/images/picture45.png",
+        image: process.env.PUBLIC_URL +"/images/picture45.png",
         date: "July 14, 2025",
         excerpt: "The drama that had Kigali buzzing this summer.",
         contentComponent: <ChateauLeMarara />,
@@ -149,7 +153,7 @@ const blogPosts = [
       },
       {
         title: "Naomie's Husband in Public",
-        image: "/images/mic1.png",
+        image: process.env.PUBLIC_URL +"/images/mic1.png",
         date: "July 12, 2025",
         excerpt: "Caught taking public transport—what did social media say?",
         contentComponent: <NaomiesHusband />,
@@ -158,7 +162,7 @@ const blogPosts = [
       },
       {
         title: "Wedding Season 2025",
-        image: "/images/weddingcover1.png",
+        image: process.env.PUBLIC_URL +"/images/weddingcover1.png",
         date: "July 14, 2025",
         excerpt:
           "Gowns, glitz, and unforgettable moments from Rwanda’s wedding season.",
@@ -168,7 +172,7 @@ const blogPosts = [
       },
       {
         title: "Celebrities & Their Fashion",
-        image: "/images/picture50.png",
+        image: process.env.PUBLIC_URL +"/images/picture50.png",
         date: "2025",
         excerpt:
           "Fashion is what you buy, Style is what you do with it, a space for self-expression",
@@ -178,7 +182,7 @@ const blogPosts = [
       },
       {
         title: "Binge Watch Diaries with Darina",
-        image: "/images/binge1.png",
+        image: process.env.PUBLIC_URL +"/images/binge1.png",
         date: "July 25, 2025",
         excerpt: "Our top shows and movies of the summer.",
         contentComponent: <BingeWatch />,
@@ -192,7 +196,7 @@ const blogPosts = [
     posts: [
       {
         title: "Feeling Like Home",
-        image: "/images/co.png",
+        image: process.env.PUBLIC_URL +"/images/co.png",
         date: "2025",
         excerpt:
           "Warm atmospheres, friendly faces, and spaces that welcome you like family — from cozy cafés to resorts.",
@@ -202,7 +206,7 @@ const blogPosts = [
       },
       {
         title: "Safe & Sound",
-        image: "/images/p5.png",
+        image: process.env.PUBLIC_URL +"/images/p5.png",
         date: "2025",
         excerpt:
           "Where peace of mind is guaranteed — well-lit streets, trusted spots, and places you can unwind without worry.",
@@ -212,7 +216,7 @@ const blogPosts = [
       },
       {
         title: "Where Your Inner Child Runs Free",
-        image: "/images/gm.png",
+        image: process.env.PUBLIC_URL +"/images/gm.png",
         date: "2025",
         excerpt:
           "From thrilling games to vibrant hangouts, Rwanda’s entertainment spots bring people together for laughter, energy, and unforgettable moments.",
@@ -222,7 +226,7 @@ const blogPosts = [
       },
       {
         title: "Elegant Evenings",
-        image: "/images/mwah.png",
+        image: process.env.PUBLIC_URL +"/images/mwah.png",
         date: "2025",
         excerpt:
           "Fine dining spots where passion meets elegance, and every night is a special experience.",
@@ -232,7 +236,7 @@ const blogPosts = [
       },
       {
         title: "Soul Satisfiers",
-        image: "/images/hii.png",
+        image: process.env.PUBLIC_URL +"/images/hii.png",
         date: "2025",
         excerpt:
           "Malls, gyms, churches, and places that speak to your deepest wants — mind, body, and soul in harmony.",

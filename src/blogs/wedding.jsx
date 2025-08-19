@@ -9,8 +9,8 @@ const WeddingSeason = () => {
       </p>
 
       <div style={sideBySideWrapper}>
-       <img src="/images/weddingcover.png" alt="Rwandan wedding scene" style={imgStyleSide} />
-<img src="/images/dancingwed.png" alt="Wedding guests dancing" style={imgStyleSide} />
+       <img src={process.env.PUBLIC_URL + "/images/weddingcover.png"} alt="Rwandan wedding scene" style={imgStyleSide} />
+<img src={process.env.PUBLIC_URL + "/images/dancingwed.png"} alt="Wedding guests dancing" style={imgStyleSide} />
 
       </div>
 
@@ -27,9 +27,9 @@ const WeddingSeason = () => {
         Married back in 2020 under COVID lockdown, their first wedding was quiet. This time? It was a full-on masterpiece.
       </p>
       <div style={imgGrid}>
-      <img src="/images/bonette6.png" alt="Bonnette in all-white dress" style={imgStyleGrid} />
-<img src="/images/allwhite.png" alt="Indina attire moment" style={imgStyleGrid} />
-<img src="/images/bonette3.png" alt="Black dress reception vibe" style={imgStyleGrid} />
+      <img src={process.env.PUBLIC_URL + "/images/bonette6.png"} alt="Bonnette in all-white dress" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/allwhite.png"} alt="Indina attire moment" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/bonette3.png"} alt="Black dress reception vibe" style={imgStyleGrid} />
 
       </div>
 
@@ -43,9 +43,9 @@ const WeddingSeason = () => {
         Gospel singer Vestine officially wed Idrissa Ouedraogo, decided to go beyond their civil wedding that took place at the start of the year. They had their religious ceremony and traditional ceremony during summer, and it was beautiful.
       </p>
       <div style={imgGrid}>
-       <img src="/images/vestine2.png" alt="Vestine civil ceremony" style={imgStyleGrid} />
-<img src="/images/vestine3.png" alt="Engagement behind-the-scenes" style={imgStyleGrid} />
-<img src="/images/vestine4.png" alt="Bridal shower magic" style={imgStyleGrid} />
+       <img src={process.env.PUBLIC_URL + "/images/vestine2.png"} alt="Vestine civil ceremony" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/vestine3.png"} alt="Engagement behind-the-scenes" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/vestine4.png"} alt="Bridal shower magic" style={imgStyleGrid} />
 
       </div>
 
@@ -64,9 +64,9 @@ const WeddingSeason = () => {
         They’re saying "I do" on September 5, 2025. A love story that silences the critics.
       </p>
       <div style={imgGrid}>
-       <img src="/images/kathia1.png" alt="Kathia and Adonis engagement" style={imgStyleGrid} />
-<img src="/images/kathia2.png" alt="Soft moments" style={imgStyleGrid} />
-<img src="/images/kathia3.png" alt="Save the date vibes" style={imgStyleGrid} />
+       <img src={process.env.PUBLIC_URL + "/images/kathia1.png"} alt="Kathia and Adonis engagement" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/kathia2.png"} alt="Soft moments" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/kathia3.png"} alt="Save the date vibes" style={imgStyleGrid} />
 
       </div>
 
@@ -80,9 +80,9 @@ const WeddingSeason = () => {
         On August 2, 2025, she said yes to her fitness coach Cedric. “Forever begins with yes,” she captioned.
       </p>
       <div style={imgGrid}>
-       <img src="/images/maolithia1.png" alt="The ring moment" style={imgStyleGrid} />
-<img src="/images/maolithia2.png" alt="Engagement celebration" style={imgStyleGrid} />
-<img src="/images/maolithia3.png" alt="Couple glow" style={imgStyleGrid} />
+       <img src={process.env.PUBLIC_URL + "/images/maolithia1.png"} alt="The ring moment" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/maolithia2.png"} alt="Engagement celebration" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/maolithia3.png"} alt="Couple glow" style={imgStyleGrid} />
 
       </div>
 
@@ -96,9 +96,9 @@ const WeddingSeason = () => {
         The internet didn’t even see this coming. On Josine’s first podcast on Moments with Jo, she had joked saying that she wasn’t even dating anyone.
       </p>
       <div style={imgGrid}>
-      <img src="/images/picture47.png" alt="Podcast moment" style={imgStyleGrid} />
-<img src="/images/picture49.png" alt="Soft glow-up moment" style={imgStyleGrid} />
-<img src="/images/picture48.png" alt="Engagement mystery" style={imgStyleGrid} />
+      <img src={process.env.PUBLIC_URL + "/images/picture47.png"} alt="Podcast moment" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/picture49.png"} alt="Soft glow-up moment" style={imgStyleGrid} />
+<img src={process.env.PUBLIC_URL + "/images/picture48.png"} alt="Engagement mystery" style={imgStyleGrid} />
 
       </div>
 

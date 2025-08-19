@@ -45,7 +45,7 @@ const Kwibohora31 = () => {
 
       {/* Section 1 — Image Left */}
       <div style={responsiveRow()}>
-        <img src="/images/k1.png" alt="President Kagame speaking" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/k1.png"} alt="President Kagame speaking" style={responsiveImg} />
         <div style={responsiveText}>
           <p>
             🎙️ <strong>President Kagame’s Message</strong><br />
@@ -60,7 +60,7 @@ const Kwibohora31 = () => {
 
       {/* Section 2 — Image Right */}
       <div style={responsiveRow(true)}>
-        <img src="/images/k2.png" alt="Youth gathering for Kwibohora" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/k2.png"} alt="Youth gathering for Kwibohora" style={responsiveImg} />
         <div style={responsiveText}>
           <p>
             👥 <strong>The Youth Perspective</strong><br />
@@ -74,7 +74,7 @@ const Kwibohora31 = () => {
 
       {/* Section 3 — Image Left */}
       <div style={responsiveRow()}>
-        <img src="/images/k3.png" alt="Rwandan Embassy event in Egypt" style={responsiveImg} />
+       <img src={process.env.PUBLIC_URL + "/images/k3.png"} alt="Rwandan Embassy event in Egypt" style={responsiveImg} />
         <div style={responsiveText}>
           <p>
             🌍 <strong>Global Reflection and Solidarity</strong><br />
@@ -85,7 +85,7 @@ const Kwibohora31 = () => {
 
       {/* Section 4 — Image Right */}
       <div style={responsiveRow(true)}>
-        <img src="/images/k4.png" alt="President Kagame at Mulindi Museum" style={responsiveImg} />
+        <img src={process.env.PUBLIC_URL + "/images/k4.png"} alt="President Kagame at Mulindi Museum" style={responsiveImg} />
         <div style={responsiveText}>
           <p>
             🛡️ <strong>The Liberation Struggle</strong><br />

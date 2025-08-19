@@ -95,10 +95,10 @@ const SoulfulSpaces = () => {
       {/* Section 1 — Kigali Public Library */}
       <div className="rowBlock">
         <div className="imageGrid">
-         <img src="/images/lib.png" alt="Kigali Public Library" />
-<img src="/images/lib2.png" alt="Kigali Public Library" />
-<img src="/images/lib3.png" alt="Kigali Public Library" />
-<img src="/images/lib1.png" alt="Kigali Public Library" />
+         <img src={process.env.PUBLIC_URL + "/images/lib.png"} alt="Kigali Public Library" />
+<img src={process.env.PUBLIC_URL + "/images/lib2.png"} alt="Kigali Public Library" />
+<img src={process.env.PUBLIC_URL + "/images/lib3.png"} alt="Kigali Public Library" />
+<img src={process.env.PUBLIC_URL + "/images/lib1.png"} alt="Kigali Public Library" />
 
         </div>
         <div className="textBlock">
@@ -111,11 +111,10 @@ const SoulfulSpaces = () => {
       {/* Section 2 — Huye Museum */}
       <div className="rowBlock alt">
         <div className="imageGrid">
-         <img src="/images/muse.png" alt="Huye Museum" />
-<img src="/images/muse2.png" alt="Huye Museum" />
-<img src="/images/muse3.png" alt="Huye Museum" />
-<img src="/images/muse4.png" alt="Huye Museum" />
-
+         <img src={process.env.PUBLIC_URL + "/images/muse.png"} alt="Huye Museum" />
+<img src={process.env.PUBLIC_URL + "/images/muse2.png"} alt="Huye Museum" />
+<img src={process.env.PUBLIC_URL + "/images/muse3.png"} alt="Huye Museum" />
+<img src={process.env.PUBLIC_URL + "/images/muse4.png"} alt="Huye Museum" />
         </div>
         <div className="textBlock">
           <p>🏛️ <strong>Huye Museum — Southern Province</strong></p>
@@ -127,10 +126,10 @@ const SoulfulSpaces = () => {
       {/* Section 3 — Chic Mall */}
       <div className="rowBlock">
         <div className="imageGrid">
-         <img src="/images/chic.png" alt="Chic Mall" />
-<img src="/images/chic2.png" alt="Chic Mall" />
-<img src="/images/chic3.png" alt="Chic Mall" />
-<img src="/images/chic1.png" alt="Chic Mall" />
+         <img src={process.env.PUBLIC_URL + "/images/chic.png"} alt="Chic Mall" />
+<img src={process.env.PUBLIC_URL + "/images/chic2.png"} alt="Chic Mall" />
+<img src={process.env.PUBLIC_URL + "/images/chic3.png"} alt="Chic Mall" />
+<img src={process.env.PUBLIC_URL + "/images/chic1.png"} alt="Chic Mall" />
 
         </div>
         <div className="textBlock">
@@ -143,10 +142,10 @@ const SoulfulSpaces = () => {
       {/* Section 4 — Kibeho Prayer Site */}
       <div className="rowBlock alt">
         <div className="imageGrid">
-         <img src="/images/kibeho.png" alt="Kibeho Prayer Site" />
-<img src="/images/kibeho2.png" alt="Kibeho Prayer Site" />
-<img src="/images/kibeho3.png" alt="Kibeho Prayer Site" />
-<img src="/images/kibeho4.png" alt="Kibeho Prayer Site" />
+         <img src={process.env.PUBLIC_URL + "/images/kibeho.png"} alt="Kibeho Prayer Site" />
+<img src={process.env.PUBLIC_URL + "/images/kibeho2.png"} alt="Kibeho Prayer Site" />
+<img src={process.env.PUBLIC_URL + "/images/kibeho3.png"} alt="Kibeho Prayer Site" />
+<img src={process.env.PUBLIC_URL + "/images/kibeho4.png"} alt="Kibeho Prayer Site" />
 
         </div>
         <div className="textBlock">
@@ -159,10 +158,10 @@ const SoulfulSpaces = () => {
       {/* Section 5 — Waka Fitness Studio */}
       <div className="rowBlock">
         <div className="imageGrid">
-         <img src="/images/waka.png" alt="Waka Fitness Studio" />
-<img src="/images/waka2.png" alt="Waka Fitness Studio" />
-<img src="/images/waka3.png" alt="Waka Fitness Studio" />
-<img src="/images/waka4.png" alt="Waka Fitness Studio" />
+         <img src={process.env.PUBLIC_URL + "/images/waka.png"} alt="Waka Fitness Studio" />
+<img src={process.env.PUBLIC_URL + "/images/waka2.png"} alt="Waka Fitness Studio" />
+<img src={process.env.PUBLIC_URL + "/images/waka3.png"} alt="Waka Fitness Studio" />
+<img src={process.env.PUBLIC_URL + "/images/waka4.png"} alt="Waka Fitness Studio" />
 
         </div>
         <div className="textBlock">

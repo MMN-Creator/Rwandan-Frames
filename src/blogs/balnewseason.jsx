@@ -54,7 +54,14 @@ const BALNewSeason = () => {
             The win was not just a medal — it was a statement. Rwanda isn't just hosting — it's competing at the highest level.
           </p>
         </div>
-        <img src="/images/b2.png"alt="APR winning moment" style={bigImageStyle} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/b2.png"}
+  alt="APR winning moment"
+  style={bigImageStyle}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
       </div>
 
       {/* Section 2 — League Momentum */}
@@ -68,7 +75,14 @@ const BALNewSeason = () => {
             The league’s growing visibility, global partnerships, and talented rosters continue to bridge continents through sport.
           </p>
         </div>
-        <img src="/images/b4.png" alt="BAL court action" style={bigImageStyle} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/b4.png"}
+  alt="BAL court action"
+  style={bigImageStyle}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
       </div>
 
       {/* Section 3 — Finals Recap */}
@@ -82,7 +96,14 @@ const BALNewSeason = () => {
             While APR clinched third, the finals showcased the very best of African basketball — skill, speed, and passion.
           </p>
         </div>
-        <img src="/images/b5.png" alt="Fans in the stadium" style={bigImageStyle} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/b5.png"}
+  alt="Fans in the stadium"
+  style={bigImageStyle}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
 
       </div>
 
@@ -97,7 +118,14 @@ const BALNewSeason = () => {
             The BAL isn’t just a league — it’s a festival of talent and culture, and Rwanda continues to be its beating heart.
           </p>
         </div>
-        <img src="/images/b6.png" alt="Concert at BAL Kigali" style={bigImageStyle} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img
+  src={process.env.PUBLIC_URL + "/images/b6.png"}
+  alt="Concert at BAL Kigali"
+  style={bigImageStyle}
+  onError={(e) => {
+    e.target.src = process.env.PUBLIC_URL + "/images/rwa4.jfif";
+  }}
+/>
       </div>
 
       {/* Final Frame */}

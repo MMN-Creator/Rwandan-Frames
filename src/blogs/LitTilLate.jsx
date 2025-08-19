@@ -101,10 +101,10 @@ const FineDiningKigali = () => {
       {/* Section 1 — Lilly Fine Dining */}
       <div className="rowBlock">
         <div className="imageGrid">
-          <img src="/images/lily1.png" alt="Lilly Fine Dining" />
-          <img src="/images/lily2.png" alt="Lilly Fine Dining" />
-          <img src="/images/lily3.png" alt="Lilly Fine Dining" />
-          <img src="/images/lily4.png" alt="Lilly Fine Dining" />
+         <img src={process.env.PUBLIC_URL + "/images/lily1.png"} alt="Lilly Fine Dining" />
+<img src={process.env.PUBLIC_URL + "/images/lily2.png"} alt="Lilly Fine Dining" />
+<img src={process.env.PUBLIC_URL + "/images/lily3.png"} alt="Lilly Fine Dining" />
+<img src={process.env.PUBLIC_URL + "/images/lily4.png"} alt="Lilly Fine Dining" />
           <a href="https://lilly-rwanda.com/" target="_blank" rel="noopener noreferrer" className="linkMobile">
             🌆 Visit Lilly Fine Dining
           </a>
@@ -123,10 +123,10 @@ const FineDiningKigali = () => {
       {/* Section 2 — Rua Restaurant */}
       <div className="rowBlock alt">
         <div className="imageGrid">
-          <img src="/images/rua1.png" alt="Rua Restaurant" />
-<img src="/images/rua2.png" alt="Rua Restaurant" />
-<img src="/images/rua3.png" alt="Rua Restaurant" />
-<img src="/images/rua4.png" alt="Rua Restaurant" />
+          <img src={process.env.PUBLIC_URL + "/images/rua1.png"} alt="Rua Restaurant" />
+<img src={process.env.PUBLIC_URL + "/images/rua2.png"} alt="Rua Restaurant" />
+<img src={process.env.PUBLIC_URL + "/images/rua3.png"} alt="Rua Restaurant" />
+<img src={process.env.PUBLIC_URL + "/images/rua4.png"} alt="Rua Restaurant" />
 
           <a href="https://rua.rw/" target="_blank" rel="noopener noreferrer" className="linkMobile">
             🌟 Visit Rua Restaurant
@@ -146,10 +146,10 @@ const FineDiningKigali = () => {
       {/* Section 3 — Pinnacle Kigali */}
       <div className="rowBlock">
         <div className="imageGrid">
-          <img src="/images/pin1.png" alt="Pinnacle Kigali" />
-<img src="/images/pin2.png" alt="Pinnacle Kigali" />
-<img src="/images/pin3.png" alt="Pinnacle Kigali" />
-<img src="/images/pin4.png" alt="Pinnacle Kigali" />
+          <img src={process.env.PUBLIC_URL + "/images/pin1.png"} alt="Pinnacle Kigali" />
+<img src={process.env.PUBLIC_URL + "/images/pin2.png"} alt="Pinnacle Kigali" />
+<img src={process.env.PUBLIC_URL + "/images/pin3.png"} alt="Pinnacle Kigali" />
+<img src={process.env.PUBLIC_URL + "/images/pin4.png"} alt="Pinnacle Kigali" />
 
           <a href="https://www.thepinnaclekigali.com/" target="_blank" rel="noopener noreferrer" className="linkMobile">
             ✨ Visit Pinnacle Kigali
@@ -169,10 +169,10 @@ const FineDiningKigali = () => {
       {/* Section 4 — Khana Kazana */}
       <div className="rowBlock alt">
         <div className="imageGrid">
-          <img src="/images/kk1.png" alt="Khana Kazana" />
-<img src="/images/kk2.png" alt="Khana Kazana" />
-<img src="/images/kk3.png" alt="Khana Kazana" />
-<img src="/images/kk4.png" alt="Khana Kazana" />
+          <img src={process.env.PUBLIC_URL + "/images/kk1.png"} alt="Khana Kazana" />
+<img src={process.env.PUBLIC_URL + "/images/kk2.png"} alt="Khana Kazana" />
+<img src={process.env.PUBLIC_URL + "/images/kk3.png"} alt="Khana Kazana" />
+<img src={process.env.PUBLIC_URL + "/images/kk4.png"} alt="Khana Kazana" />
 
           <a href="https://khanakhazana.rw/" target="_blank" rel="noopener noreferrer" className="linkMobile">
             🍛 Visit Khana Kazana
@@ -192,10 +192,10 @@ const FineDiningKigali = () => {
       {/* Section 5 — Kozo Restaurant */}
       <div className="rowBlock">
         <div className="imageGrid">
-         <img src="/images/ko1.png" alt="Kozo Restaurant" />
-<img src="/images/ko2.png" alt="Kozo Restaurant" />
-<img src="/images/ko3.png" alt="Kozo Restaurant" />
-<img src="/images/ko4.png" alt="Kozo Restaurant" />
+         <img src={process.env.PUBLIC_URL + "/images/ko1.png"} alt="Kozo Restaurant" />
+<img src={process.env.PUBLIC_URL + "/images/ko2.png"} alt="Kozo Restaurant" />
+<img src={process.env.PUBLIC_URL + "/images/ko3.png"} alt="Kozo Restaurant" />
+<img src={process.env.PUBLIC_URL + "/images/ko4.png"} alt="Kozo Restaurant" />
 
           <a href="https://www.kozogh.com/" target="_blank" rel="noopener noreferrer" className="linkMobile">
             🌿 Visit Kozo Restaurant

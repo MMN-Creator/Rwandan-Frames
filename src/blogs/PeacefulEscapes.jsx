@@ -100,10 +100,10 @@ const ReviveTheChildInYou = () => {
       {/* Section 1 — Kigali Universe */}
       <div className="rowBlock">
         <div className="imageGrid">
-          <img src="/images/ku1.png" alt="Kigali Universe" />
-<img src="/images/ku2.png" alt="Kigali Universe" />
-<img src="/images/ku3.png" alt="Kigali Universe" />
-<img src="/images/ku4.png" alt="Kigali Universe" />
+          <img src={process.env.PUBLIC_URL + "/images/ku1.png"} alt="Kigali Universe" />
+<img src={process.env.PUBLIC_URL + "/images/ku2.png"} alt="Kigali Universe" />
+<img src={process.env.PUBLIC_URL + "/images/ku3.png"} alt="Kigali Universe" />
+<img src={process.env.PUBLIC_URL + "/images/ku4.png"} alt="Kigali Universe" />
 
         </div>
         <div className="textBlock">
@@ -121,10 +121,10 @@ const ReviveTheChildInYou = () => {
       {/* Section 2 — Simba Centre */}
       <div className="rowBlock alt">
         <div className="imageGrid">
-         <img src="/images/sc1.png" alt="Simba Centre" />
-<img src="/images/sc2.png" alt="Simba Centre" />
-<img src="/images/sc3.png" alt="Simba Centre" />
-<img src="/images/sc4.png" alt="Simba Centre" />
+         <img src={process.env.PUBLIC_URL + "/images/sc1.png"} alt="Simba Centre" />
+<img src={process.env.PUBLIC_URL + "/images/sc2.png"} alt="Simba Centre" />
+<img src={process.env.PUBLIC_URL + "/images/sc3.png"} alt="Simba Centre" />
+<img src={process.env.PUBLIC_URL + "/images/sc4.png"} alt="Simba Centre" />
 
         </div>
         <div className="textBlock">
@@ -141,10 +141,10 @@ const ReviveTheChildInYou = () => {
       {/* Section 3 — Acacus */}
       <div className="rowBlock">
         <div className="imageGrid">
-         <img src="/images/ac1.png" alt="Acacus Kigali" />
-<img src="/images/ac2.png" alt="Acacus Kigali" />
-<img src="/images/ac3.png" alt="Acacus Kigali" />
-<img src="/images/ac4.png" alt="Acacus Kigali" />
+         <img src={process.env.PUBLIC_URL + "/images/ac1.png"} alt="Acacus Kigali" />
+<img src={process.env.PUBLIC_URL + "/images/ac2.png"} alt="Acacus Kigali" />
+<img src={process.env.PUBLIC_URL + "/images/ac3.png"} alt="Acacus Kigali" />
+<img src={process.env.PUBLIC_URL + "/images/ac4.png"} alt="Acacus Kigali" />
 
         </div>
         <div className="textBlock">
@@ -161,10 +161,10 @@ const ReviveTheChildInYou = () => {
       {/* Section 4 — Bambino */}
       <div className="rowBlock alt">
         <div className="imageGrid">
-          <img src="/images/ba1.png" alt="Bambino Amusement Park" />
-<img src="/images/ba2.png" alt="Bambino Amusement Park" />
-<img src="/images/ba3.png" alt="Bambino Amusement Park" />
-<img src="/images/ba4.png" alt="Bambino Amusement Park" />
+          <img src={process.env.PUBLIC_URL + "/images/ba1.png"} alt="Bambino Amusement Park" />
+<img src={process.env.PUBLIC_URL + "/images/ba2.png"} alt="Bambino Amusement Park" />
+<img src={process.env.PUBLIC_URL + "/images/ba3.png"} alt="Bambino Amusement Park" />
+<img src={process.env.PUBLIC_URL + "/images/ba4.png"} alt="Bambino Amusement Park" />
 
         </div>
         <div className="textBlock">
@@ -181,10 +181,10 @@ const ReviveTheChildInYou = () => {
       {/* Section 5 — Summer Palace Rwanda */}
       <div className="rowBlock">
         <div className="imageGrid">
-         <img src="/images/sp1.png" alt="Summer Palace Rwanda" />
-<img src="/images/sp2.png" alt="Summer Palace Rwanda" />
-<img src="/images/sp3.png" alt="Summer Palace Rwanda" />
-<img src="/images/sp4.png" alt="Summer Palace Rwanda" />
+        <img src={process.env.PUBLIC_URL + "/images/sp1.png"} alt="Summer Palace Rwanda" />
+<img src={process.env.PUBLIC_URL + "/images/sp2.png"} alt="Summer Palace Rwanda" />
+<img src={process.env.PUBLIC_URL + "/images/sp3.png"} alt="Summer Palace Rwanda" />
+<img src={process.env.PUBLIC_URL + "/images/sp4.png"} alt="Summer Palace Rwanda" />
 
         </div>
         <div className="textBlock">
