@@ -17,7 +17,7 @@ const CelebFashion = () => {
 
       {/* Row: Left picture, paragraph, right picture */}
       <div style={rowWrapper}>
-        <img src={process.env.PUBLIC_URL + "/images/picture54.png"} alt="Celebrity red carpet" style={sideImageStyle} />
+        <img src={process.env.PUBLIC_URL + "/images/Picture54.png"} alt="Celebrity red carpet" style={sideImageStyle} />
         
         <div style={middleParagraphStyle}>
           <p>
@@ -30,7 +30,7 @@ const CelebFashion = () => {
           </p>
         </div>
         
-        <img src={process.env.PUBLIC_URL + "/images/picture55.png"} alt="Sunday service attire" style={sideImageStyle} />
+        <img src={process.env.PUBLIC_URL + "/images/Picture55.png"} alt="Sunday service attire" style={sideImageStyle} />
       </div>
 
       {/* Sabine Mutabazi */}

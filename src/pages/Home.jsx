@@ -144,7 +144,7 @@ const blogPosts = [
     posts: [
       {
         title: "Château le Marara",
-        image: process.env.PUBLIC_URL +"/images/picture45.png",
+        image: process.env.PUBLIC_URL +"/images/Picture45.png",
         date: "July 14, 2025",
         excerpt: "The drama that had Kigali buzzing this summer.",
         contentComponent: <ChateauLeMarara />,
@@ -172,7 +172,7 @@ const blogPosts = [
       },
       {
         title: "Celebrities & Their Fashion",
-        image: process.env.PUBLIC_URL +"/images/picture50.png",
+        image: process.env.PUBLIC_URL +"/images/Picture50.png",
         date: "2025",
         excerpt:
           "Fashion is what you buy, Style is what you do with it, a space for self-expression",
