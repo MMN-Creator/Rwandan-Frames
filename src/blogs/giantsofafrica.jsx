@@ -16,7 +16,7 @@ const GiantsOfAfrica = () => {
         These courts serve as vital spaces for youth to grow, compete, and dream.
       </p>
       <div style={imgGrid}>
-        <img src={`${process.env.PUBLIC_URL}/images/Picture87.png`} alt="New basketball court" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
+        <img src={`${process.env.PUBLIC_URL}/images/Picture87.PNG`} alt="New basketball court" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
         <img src={`${process.env.PUBLIC_URL}/images/raf.png`} alt="Rafiki Court detail 1" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
         <img src={`${process.env.PUBLIC_URL}/images/raf1.png`} alt="Rafiki Court detail 2" style={imgStyleGrid} onError={(e) => { e.target.src = `${process.env.PUBLIC_URL}/images/rwa4.jfif`; }} />
       </div>
@@ -47,7 +47,7 @@ const GiantsOfAfrica = () => {
   }}
 />
 <img
-  src={process.env.PUBLIC_URL + "/images/Picture911.png"}
+  src={process.env.PUBLIC_URL + "/images/Picture911.PNG"}
   alt="Opening concert wide shot"
   style={imgStyleGrid}
   onError={(e) => {
@@ -71,7 +71,7 @@ const GiantsOfAfrica = () => {
   }}
 />
 <img
-  src={process.env.PUBLIC_URL + "/images/Picture92.png"}
+  src={process.env.PUBLIC_URL + "/images/Picture92.PNG"}
   alt="Runway fashion 2"
   style={imgStyleGrid}
   onError={(e) => {
@@ -143,7 +143,7 @@ const GiantsOfAfrica = () => {
   }}
 />
 <img
-  src={process.env.PUBLIC_URL + "/images/Picture105.png"}
+  src={process.env.PUBLIC_URL + "/images/Picture105.PNG"}
   alt="Kagame & Masai Ujiri together"
   style={imgStyleGrid}
   onError={(e) => {
