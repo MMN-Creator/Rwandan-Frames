@@ -2,7 +2,7 @@
   "name": "rwandan-frames",
   "version": "0.1.0",
   "private": true,
- "homepage": "https://MMN-Creator.github.io/Rwandan-Frames/",
+  "homepage": "https://MMN-Creator.github.io/Rwandan-Frames/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-},
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
